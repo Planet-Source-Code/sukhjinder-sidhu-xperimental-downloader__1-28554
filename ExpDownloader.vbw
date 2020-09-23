@@ -1,0 +1,5 @@
+frmMain = 35, -3, 719, 446, C, 44, 58, 639, 580, C
+modDownload = 161, 17, 713, 463, C
+mod3rdParty = -11, 60, 705, 610, C
+modFTPFunctions = -15, 61, 697, 577, C
+frmConnect = 102, 56, 669, 385, C, 132, 174, 699, 625, C

@@ -1,0 +1,94 @@
+[Root]
+Most Recent Package=Sukh's Downloader Setup
+
+
+[Package|Sukh's Downloader Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Documents and Settings\Sukhjinder Sidhu\Desktop\Exp Downloader
+
+[Package|Sukh's Downloader Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Sukh's Downloader Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Sukh's Downloader Setup|Files Found]
+
+[Package|Sukh's Downloader Setup|Files Released]
+
+[Package|Sukh's Downloader Setup|Missing Dependency Information]
+
+[Package|Sukh's Downloader Setup|Out-of-Date Dependency Information]
+
+[Package|Sukh's Downloader Setup|Files Added]
+
+[Package|Sukh's Downloader Setup|Files Removed]
+
+[Package|Sukh's Downloader Setup|Files In Project]
+C:\Documents and Settings\Sukhjinder Sidhu\Desktop\ExpDownloader.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Sukh's Downloader Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Sukh's Downloader Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Sukh's Downloader Setup|Install Locations]
+C:\Documents and Settings\Sukhjinder Sidhu\Desktop\ExpDownloader.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Sukh's Downloader Setup|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Sukhjinder Sidhu\Desktop\ExpDownloader.exe=No
+
+[Package|Sukh's Downloader Setup|Distribution]
+Type=single
+Size=
+Title=Sukh's Downloader
+
+[Package|Sukh's Downloader Setup|IconGroups]
+Group0=Experimental Downloader
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Sukh's Downloader Setup|Experimental Downloader]
+Icon1=EXPDOWNLOADER.exe
+Title1=Sukh's Downloader
+StartIn1=$(AppPath)
+Key1=Icon2
+
+[Package|Sukh's Downloader Setup|Package]
+PackageFolder=c:\Documents and Settings\Sukhjinder Sidhu\Desktop\Exp Downloader
+ProjectFolder=D:\Documents\JinJunk\Visual Basic\MagicInstall\Other Programs\Exp. Downloader
+ServerSideCab=
+File1=c:\Documents and Settings\Sukhjinder Sidhu\Desktop\Exp Downloader\setup.exe
+File2=c:\Documents and Settings\Sukhjinder Sidhu\Desktop\Exp Downloader\Setup.Lst
+File3=c:\Documents and Settings\Sukhjinder Sidhu\Desktop\Exp Downloader\ExpDownloader.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
